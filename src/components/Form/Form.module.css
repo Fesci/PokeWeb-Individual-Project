@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.form input {
+  border-radius: 20px;
+}
+.types {
+  max-width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  align-items: baseline;
+}
+.checkbox {
+  flex-wrap: wrap;
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 30px;
+}
+.checkSpan {
+  position: relative;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  transition: 0.4s;
+  padding: 0 15px;
+}
+.checkInput {
+  pointer-events: none;
+  display: none;
+}
+
+.checkInput:checked + span {
+  border-color: #f33d3d;
+  color: #f33d3d;
+}
+.types span {
+}
+.rowform {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.imagecontainer {
+  width: 50%;
+}

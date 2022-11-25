@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: local("Gilroy-SemiBold"), url(./fonts/Gilroy-SemiBold.ttf);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+* {
+  box-sizing: content-box;
+}

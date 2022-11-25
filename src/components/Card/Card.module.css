@@ -1,0 +1,38 @@
+.card {
+  background-color: black;
+  padding: 10px 20px 20px 30px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 15px 10px;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
+.card p {
+  font-size: 14px;
+  color: #b5b4b4;
+}
+.card h2 {
+  text-decoration: rgba(255, 255, 255, 0.401);
+  color: white;
+  text-align: center;
+}
+.card img {
+  display: block;
+  width: 180px;
+  max-height: 200px;
+  margin: 20px auto;
+}
+.types {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0 20px 0;
+}
+.types span {
+  color: white;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}

@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputbar {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffcb05;
+  padding: 4px;
+}
+.inputbar input {
+  border-radius: 30px;
+  width: 350px;
+}
+
+.inputbar path {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.inputbar svg:hover {
+  animation: shake 1.5s infinite alternate;
+}
+.navbar select {
+  border-radius: 30px;
+  padding: 4px;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(180deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

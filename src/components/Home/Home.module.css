@@ -1,0 +1,57 @@
+.Cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+  margin: 0 10% 0 10%;
+}
+.pokeImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Card {
+  flex: 0 1 24%;
+  margin: 10%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.navContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.refresh {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  align-content: center;
+  background-color: #ffcb05;
+  border-radius: 20px;
+  padding: 3px;
+}
+.navContainer select {
+  border-radius: 30px;
+  padding: 4px;
+}
+.navContainer img:hover {
+  animation: shake 1.5s infinite alternate;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(360deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
